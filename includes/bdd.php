@@ -270,6 +270,11 @@
             header('Location: '.PATH.'entrar/');
         }
     }
+    if(strstr(basename($_SERVER['PHP_SELF'],'.php'), 'publicar-anuncio')) {
+        if(!isset($usuario_logado)) {
+            header('Location: '.PATH.'entrar/');
+        }
+    }
     //-----------------------------------------------------------------------------------
 
     //Head
