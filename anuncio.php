@@ -58,7 +58,7 @@
 					<div class="slider">
 						<div class="slide">
 <?php
-							$omsselect = "SELECT * from anuncio_galeria WHERE id_anuncio = :id_anuncio ORDER BY posicao DESC";
+							$omsselect = "SELECT * from anuncio_galeria WHERE id_anuncio = :id_anuncio ORDER BY posicao ASC";
 				            try {
 				                $omsresult = $bdd->prepare($omsselect);
 				                $omsresult->bindParam(':id_anuncio', $_GET['id'], PDO::PARAM_STR);

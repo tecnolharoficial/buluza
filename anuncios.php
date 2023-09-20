@@ -42,14 +42,14 @@
 		</div>
 		<div class="row justify-content-center">
 <?php
-			$omsselect = "SELECT * from anuncios WHERE id > 0 $id_categoria $termo $estado $cidade";
+			$omsselect = "SELECT * from anuncios WHERE id > 0 $id_categoria $termo $estado $cidade ORDER BY id DESC";
             try {
                 $omsresult = $bdd->prepare($omsselect);
                 $omsresult->execute();
                 $omscontar = $omsresult->rowCount();
                 if($omscontar > 0) {
                     while($omsmost = $omsresult->FETCH(PDO::FETCH_OBJ)) {
-                    	$entselect = "SELECT * from anuncio_galeria WHERE id_anuncio = :id_anuncio";
+                    	$entselect = "SELECT * from anuncio_galeria WHERE id_anuncio = :id_anuncio ORDER BY posicao DESC";
 				        try {
 				            $entresult = $bdd->prepare($entselect);
 				            $entresult->bindParam(':id_anuncio', $omsmost->id, PDO::PARAM_STR);

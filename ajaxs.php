@@ -128,6 +128,7 @@
             $cadcontar = $cadresult->rowCount();
             if($cadcontar > 0) {
             	$lastInsertId = $bdd->lastInsertId();
+            	$fileNames = json_decode($_POST['fileNames']);
             	if(isset($_FILES['file']) && is_array($_FILES['file']['name'])) {
 			        $total_files = count($_FILES['file']['name']);
 			        for($i = 0; $i < $total_files; $i++) {
@@ -157,6 +158,13 @@
 			            }
 			        }
 			    }
+			    $posicao = 0;
+		        foreach($fileNames as $fileName) {
+		        	$atlifsedit = $bdd->prepare("UPDATE anuncio_galeria set posicao = ? WHERE img = ?");
+			        $atlifsedit->execute(array($posicao, $fileName));
+			        $atlifsedit->execute();
+			        $posicao++;
+		        }
                 echo json_encode(array('', 'Tudo certo! foi públicado com sucesso.', PATH.'meus-anuncios/', ''));
             }
         }
@@ -209,7 +217,7 @@
             if($omscontar > 0) {
                 while($omsmost = $omsresult->FETCH(PDO::FETCH_OBJ)) {
                 	if(!in_array($omsmost->img, $fileNames)) {
-                		unlink(ROOT.'assets/anuncios/'.$omsmost->img);
+                		unlink(ROOT.'assets/img/anuncios/'.$omsmost->img);
 	                	$vercodeeas = $bdd->prepare('DELETE FROM anuncio_galeria WHERE id = :id');
 				        $vercodeeas->bindParam(':id' , $omsmost->id, PDO::PARAM_STR);
 				        $vercodeeas->execute();
@@ -254,7 +262,7 @@
             $omscontar = $omsresult->rowCount();
             if($omscontar > 0) {
                 while($omsmost = $omsresult->FETCH(PDO::FETCH_OBJ)) {
-                	unlink(ROOT.'assets/anuncios/'.$omsmost->img);
+                	unlink(ROOT.'assets/img/anuncios/'.$omsmost->img);
                 	$vercodeeas = $bdd->prepare('DELETE FROM anuncio_galeria WHERE id = :id');
 			        $vercodeeas->bindParam(':id' , $omsmost->id, PDO::PARAM_STR);
 			        $vercodeeas->execute();
