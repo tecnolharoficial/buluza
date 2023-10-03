@@ -1,9 +1,9 @@
 # Forçar HTTPS e www
 RewriteEngine On
-#RewriteCond %{HTTPS} off [OR]
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-#RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 #########################################################
 
 # Remover extensão do arquivo
@@ -93,15 +93,15 @@ Options All -Indexes
 #########################################################
 
 # Redirecionar em caso de erros
-ErrorDocument 400 https://www.buluza.com.br/
-ErrorDocument 403 https://www.buluza.com.br/
-ErrorDocument 404 https://www.buluza.com.br/
-ErrorDocument 500 https://www.buluza.com.br/
-ErrorDocument 501 https://www.buluza.com.br/
-ErrorDocument 502 https://www.buluza.com.br/
-ErrorDocument 503 https://www.buluza.com.br/
-ErrorDocument 504 https://www.buluza.com.br/
-ErrorDocument 505 https://www.buluza.com.br/
+ErrorDocument 400 https://www.gatadaarea.com/
+ErrorDocument 403 https://www.gatadaarea.com/
+ErrorDocument 404 https://www.gatadaarea.com/
+ErrorDocument 500 https://www.gatadaarea.com/
+ErrorDocument 501 https://www.gatadaarea.com/
+ErrorDocument 502 https://www.gatadaarea.com/
+ErrorDocument 503 https://www.gatadaarea.com/
+ErrorDocument 504 https://www.gatadaarea.com/
+ErrorDocument 505 https://www.gatadaarea.com/
 #########################################################
 
 # Aumentar limites
