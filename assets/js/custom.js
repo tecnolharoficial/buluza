@@ -2,7 +2,7 @@ if(window.location.host == 'localhost') {
     var PATH = window.location.protocol + '//' + window.location.host + '/buluza/';
 }
 else {
-    var PATH = window.location.protocol + '//' + window.location.host + '/buluza/';
+    var PATH = window.location.protocol + '//' + window.location.host + '/';
 }
 
 (function($) {
