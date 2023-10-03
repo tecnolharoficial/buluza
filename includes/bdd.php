@@ -311,7 +311,7 @@
                         <ul>
                             <li><a class="d-lg-none" data-bs-toggle="modal" data-bs-target="#filtros"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                             <li><a href="<?php echo PATH.'meus-anuncios/'; ?>"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="<?php echo PATH.'publicar-anuncio/'; ?>" class="btn"><i class="fa-solid fa-circle-plus"></i> <span class="d-none d-lg-block">Públicar Anúncio</span></a></li>
+                            <li><a href="<?php echo PATH.'publicar-anuncio/'; ?>" class="btn"><i class="fa-solid fa-circle-plus"></i> <span class="d-none d-lg-inline-block">Públicar Anúncio</span></a></li>
                         </ul>
                     </nav>
                 </div>
