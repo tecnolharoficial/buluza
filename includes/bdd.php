@@ -13,7 +13,7 @@
 
     //Conexão com o banco principal
     try {
-        $bdd = new PDO('mysql:host='.HOST.';dbname=buluza;charset=utf8', 'root', '');
+        $bdd = new PDO('mysql:host='.HOST.';dbname=look9131_gatadaarea;charset=utf8', 'look9131_gatadaarea', 'xX40028922');
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
     catch(PDOException $error) {
