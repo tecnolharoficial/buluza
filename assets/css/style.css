@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-    color: #ef1044;
+    color: #e04a8f;
 }
 
 p:last-child {
@@ -154,9 +154,9 @@ header nav ul li:not(:last-child) a:hover {
 
 .btn {
     width: max-content;
-    background: #ef1044;
+    background: #e04a8f;
     border-radius: 14px;
-    border: 2px solid #ef1044;
+    border: 2px solid #e04a8f;
     font-weight: bold;
     color: #fff;
     font-size: 18px;
@@ -183,21 +183,21 @@ header nav ul li:not(:last-child) a:hover {
     width: max-content;
     background: transparent;
     border-radius: 14px;
-    border: 2px solid #ef1044;
+    border: 2px solid #e04a8f;
     font-weight: bold;
-    color: #ef1044;
+    color: #e04a8f;
 }
 
 .btn:hover {
     color: #fff;
-    background: #ef1044;
-    box-shadow: 0 0 8px #ef1044;
+    background: #e04a8f;
+    box-shadow: 0 0 8px #e04a8f;
 }
 
 .btn-outline:hover {
     color: #fff;
-    background: #ef1044;
-    box-shadow: 0 0 8px #ef1044;
+    background: #e04a8f;
+    box-shadow: 0 0 8px #e04a8f;
 }
 
 .card {
@@ -243,7 +243,7 @@ header nav ul li:not(:last-child) a:hover {
 
 .badge {
     font-size: 14px;
-    background: #ef1044;
+    background: #e04a8f;
     border-radius: 14px;
     font-weight: bold;
     color: #fff;

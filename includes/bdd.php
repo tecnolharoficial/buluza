@@ -289,7 +289,8 @@
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/style.min.css">
             <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
             <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
-            <link rel="stylesheet" type="text/css" href="<?php echo PATH.'assets/css/style.css'; ?>">
+            <link rel="icon" type="image/png" href="<?php echo PATH.'assets/img/geral/favicon.png'; ?>">
+            <link rel="stylesheet" type="text/css" href="<?php echo PATH.'assets/css/style.css?1'; ?>">
         </head>
 <?php
     }
@@ -302,7 +303,7 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <a href="<?php echo PATH; ?>">
-                        <img src="https://pt.freelogodesign.org/assets/img/logo-colors-meanings/logos-rouges/logo-kellogs.svg">
+                        <img src="<?php echo PATH.'assets/img/geral/logo.png'; ?>">
                     </a>
                     <div class="d-lg-flex d-none w-100">
                         <input type="text" placeholder="Clique aqui para abrir a Pesquisa" data-bs-toggle="modal" data-bs-target="#filtros" readonly>
