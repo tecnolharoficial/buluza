@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #f01045;
+    color: #e04a8f;
     text-decoration: unset;
 }
 
@@ -163,8 +163,8 @@ header nav ul li:not(:last-child) a:hover {
 }
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background: #f01045;
-    border-color: #f01045;
+    background: #e04a8f;
+    border-color: #e04a8f;
     color: #fff;
 }
 

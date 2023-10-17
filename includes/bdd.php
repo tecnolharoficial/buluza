@@ -290,7 +290,7 @@
             <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
             <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
             <link rel="icon" type="image/png" href="<?php echo PATH.'assets/img/geral/favicon.png'; ?>">
-            <link rel="stylesheet" type="text/css" href="<?php echo PATH.'assets/css/style.css?1'; ?>">
+            <link rel="stylesheet" type="text/css" href="<?php echo PATH.'assets/css/style.css?2'; ?>">
         </head>
 <?php
     }
