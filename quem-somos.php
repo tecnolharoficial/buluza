@@ -9,11 +9,18 @@
 			<div class="col-md-12">
 				<h3 class="fw-bold">Quem somos</h3>
 				<div class="text-justify">
-					<p>Seja bem-vindo à SKOKKA!</p>
-					<p>Taca Escarlate Servicos De Publicidade Online LTDA, en su calidad de responsable del tratamiento de los datos personales recopilados en el sitio web para adultos https://br.skokka.com (, declara que presta la máxima atención a la seguridad y confidencialidad de los datos personales en el desempeño de sus actividades.</p>
-					<p>O presente Aviso de Privacidade (“Aviso”) explica os detalhes essenciais da relação dos Dados Pessoais do Usuário com a SKOKKA. O Aviso aplica-se a todos os Serviços da SKOKKA e a quaisquer serviços associados ("Serviço" ou “Plataforma”). Os termos que regem a utilização dos Serviços pelo Usuário estão definidos nos nossos Termos e Condições de Uso, dos quais este Aviso faz parte, disponível no endereço eletrônico https://br.skokka.com/termos-e-condicoes/.</p>
-					<p>Eventualmente, poderemos desenvolver novos Serviços ou oferecer Serviços adicionais. Se a introdução destes novos Serviços resultar em alguma alteração na forma como coletamos ou tratamos os dados pessoais do Usuário, disponibilizaremos mais informações, termos ou Avisos adicionais. Salvo disposição em contrário, sempre que introduzirmos estes novos serviços ou funcionalidades adicionais, estes ficarão sujeitos ao presente Aviso.</p>
-					<p>Para facilitar a leitura e compreensão das disposições trazidas neste Instrumento, apresentamos abaixo um quadro resumo dos tópicos tratados:</p>
+					<p>Junte-se a n&oacute;s&nbsp;</p>
+					<p>Gata da &Aacute;rea n&atilde;o &eacute; uma ag&ecirc;ncia de acompanhantes, apenas um site de encontros seguro.&nbsp;</p>
+					<p>Estamos entrando no cen&aacute;rio profissional para oferecer suporte aos acompanhantes em todo o Brasil, impulsionando suas trajet&oacute;rias em dire&ccedil;&atilde;o ao sucesso com tecnologia, respeito e seguran&ccedil;a.&nbsp;</p>
+					<p>Lamentavelmente, persiste na sociedade uma vis&atilde;o que desmerece e estigmatiza o trabalho dos acompanhantes. O preconceito em rela&ccedil;&atilde;o a essa profiss&atilde;o &eacute; uma realidade enfrentada por aqueles que atuam nesse campo, contudo, sabemos que, tal como em todas as outras profiss&otilde;es, muitos s&atilde;o pais, m&atilde;es, filhos e filhas que almejam alcan&ccedil;ar seus objetivos e concretizar seus sonhos.&nbsp;</p>
+					<p>Por conseguinte, comprometemo-nos a combater todos os tipos de preconceito na sociedade em rela&ccedil;&atilde;o aos profissionais que desempenham o papel de acompanhantes. Vamos buscar incansavelmente para tornar o mercado mais seguro e rent&aacute;vel para todos desse setor.&nbsp;</p>
+					<p>Acreditamos que com di&aacute;logo e comunica&ccedil;&atilde;o conseguiremos combater a ignor&acirc;ncia. Temos nossos canais de comunica&ccedil;&atilde;o para disseminar conhecimento sobre todos os aspectos que permeiam o universo dos acompanhantes. Buscamos apresentar solu&ccedil;&otilde;es e medidas que possam auxiliar em diversas esferas da vida desses profissionais.&nbsp;</p>
+					<p>Estamos entrando no mercado e queremos ser excel&ecirc;ncia, reconhecemos que h&aacute; muito a ser feito no vasto mercado de acompanhantes.&nbsp;</p>
+					<p>Desejamos um mundo onde o respeito prevale&ccedil;a para todos, independentemente da profiss&atilde;o, e onde cada pessoa tenha a liberdade de escolher sua carreira, ciente da relev&acirc;ncia do seu servi&ccedil;o para a sociedade como um todo.&nbsp;</p>
+					<p>Se voc&ecirc; escolheu ser acompanhante, orgulhe-se da sua profiss&atilde;o, pois &eacute; por meio dela que voc&ecirc; poder&aacute; realizar seus sonhos. Se atua nesse ramo por falta de oportunidades, desejamos a voc&ecirc; toda a for&ccedil;a necess&aacute;ria e esperamos que em breve alcance o caminho desejado.&nbsp;</p>
+					<p>Vamos seguir juntos?&nbsp;</p>
+					<p><br></p>
+					<p><a href="https://www.gatadaarea.com/" target="_blank" rel="noopener noreferrer">GATADAAREA.COM</a></p>
 				</div>
 			</div>
 		</div>
