@@ -398,7 +398,7 @@
                         <strong class="d-block mb-2">Insitucional</strong>
                         <ul>
                             <li><a href="<?php echo PATH.'quem-somos/'; ?>">Quem somos</a></li>
-                            <li><a href="<?php echo PATH.'termos-de-uso/'; ?>">Termos e Condições</a></li>
+                            <li><a href="<?php echo PATH.'termos-e-condicoes/'; ?>">Termos e Condições</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
