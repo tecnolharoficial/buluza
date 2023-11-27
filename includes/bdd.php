@@ -394,14 +394,14 @@
         <footer>
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <strong class="d-block mb-2">Insitucional</strong>
                         <ul>
                             <li><a href="<?php echo PATH.'quem-somos/'; ?>">Quem somos</a></li>
-                            <li><a href="<?php echo PATH.'faq/'; ?>">Perguntas Frequêntes</a></li>
+                            <li><a href="<?php echo PATH.'termos-de-uso/'; ?>">Termos e Condições</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <strong class="d-block mb-2">Categorias</strong>
                         <ul>
 <?php
@@ -424,20 +424,12 @@
 ?>
                         </ul>
                     </div>
-                    <div class="col-md-3">
-                        <strong class="d-block mb-2">Políticas</strong>
-                        <ul>
-                            <li><a href="<?php echo PATH.'termos-e-condicoes/'; ?>">Termos e Condições</a></li>
-                            <li><a href="<?php echo PATH.'politica-de-privacidade/'; ?>">Política de Privacidade</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <strong class="d-block mb-2">Redes Sociais</strong>
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
                             <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
                             <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                            <li><a href="#"><i class="fa-brands fa-pinterest"></i> Pinterest</a></li>
+                            <li><a href="#"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
                         </ul>
                     </div>
                 </div>
