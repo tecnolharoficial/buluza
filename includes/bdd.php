@@ -427,9 +427,9 @@
                     <div class="col-md-4">
                         <strong class="d-block mb-2">Redes Sociais</strong>
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                            <li><a href="#"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61554046588553&mibextid=ZbWKwL" target="_Blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/invites/contact/?i=5ubjhkihsd2j&utm_content=soalzgj" target="_Blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@gatadaarea?_t=8hhpwxZSukH&_r=1" target="_Blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
                         </ul>
                     </div>
                 </div>
