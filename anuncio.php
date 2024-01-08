@@ -154,7 +154,7 @@
 <?php
 					if($whatsapp == 'on') {
 ?>
-						<a href="https://api.whatsapp.com/send?phone=55<?php echo somente_numero($telefone); ?>" class="btn whatsapp w-100" target="_Blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+						<a href="https://api.whatsapp.com/send?phone=55<?php echo somente_numero($telefone); ?>&text=Ol%C3%A1%20,%20lhe%20vi%20em%20GATA%20DA%20%C3%81REA%20e%20gostaria%20de%20marcar%20um%20encontro%20com%20voc%C3%AA." class="btn whatsapp w-100" target="_Blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
 <?php
 					}
 ?>

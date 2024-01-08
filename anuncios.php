@@ -14,14 +14,14 @@
     else {
         $termo = '';
     }
-    if(!empty($_GET['estado'])) {
-        $estado = 'AND estado LIKE "%'.$_GET['estado'].'%"';
+    if(!empty($_GET['estado_2'])) {
+        $estado = 'AND estado LIKE "%'.$_GET['estado_2'].'%"';
     }
     else {
         $estado = '';
     }
-    if(!empty($_GET['cidade'])) {
-        $cidade = 'AND cidade LIKE "%'.$_GET['cidade'].'%"';
+    if(!empty($_GET['cidade_2'])) {
+        $cidade = 'AND cidade LIKE "%'.$_GET['cidade_2'].'%"';
     }
     else {
         $cidade = '';
